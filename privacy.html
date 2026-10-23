@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · Mostly Airtight Studio</title>
+<meta name="description" content="What ENKI and mostlyairtight.com collect, and why.">
+<link rel="icon" href="favicon.ico">
+<style>
+  :root {
+    --bg: #0E1216;
+    --edge: #2A323C;
+    --silver: #D5DAE0;
+    --grey: #8A94A0;
+    --hiss: #5B8DB8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--silver);
+    font: 17px/1.65 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  }
+  header { padding: 28px 32px; }
+  header img { height: 44px; width: auto; display: block; }
+  main { max-width: 720px; margin: 0 auto; padding: 8px 16px 64px; }
+  h1 { font-size: 30px; font-weight: 600; margin: 24px 0 4px; }
+  h2 { font-size: 20px; font-weight: 600; margin: 36px 0 8px; color: var(--silver); }
+  p, li { color: #C3C9D0; }
+  .updated { color: var(--grey); font-size: 15px; margin: 0 0 24px; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--hiss); }
+  footer { border-top: 1px solid var(--edge); padding: 20px 16px 28px; text-align: center; font-size: 14px; color: var(--grey); }
+  footer a { color: var(--grey); }
+  @media (max-width: 520px) { header { padding: 20px 16px; } header img { height: 34px; } }
+</style>
+</head>
+<body>
+<header>
+  <a href="./"><img src="studio.svg" alt="Mostly Airtight Studio" width="397" height="72"></a>
+</header>
+<main>
+  <h1>Privacy</h1>
+  <p class="updated">Last updated 23 October 2026</p>
+
+  <p>Mostly Airtight Studio makes ENKI. We collect as little as we can: nothing from this website, and from the game only the crash and bug reports you agree to send. We never sell anything about you, and there are no ads.</p>
+
+  <h2>This website</h2>
+  <p>No cookies, no analytics, no tracking, and nothing loaded from other companies. The company hosting it may keep ordinary server logs, as every web host does.</p>
+
+  <h2>Crash reports from the game</h2>
+  <p>The first time ENKI starts, it asks whether it may send crash reports. Until you say yes, it sends nothing. You can change your answer any time in Settings → Privacy.</p>
+  <p>If you say yes, a report goes out when the game hits an error or crashes. It holds:</p>
+  <ul>
+    <li>the game's version, and whether you were playing alone, hosting or joined;</li>
+    <li>your system and its version, CPU, memory, graphics card and driver, screen, and graphics settings;</li>
+    <li>the error itself, and the last lines of the game's log;</li>
+    <li>a random ID for the install, so repeated crashes on one PC can be told apart from crashes on many.</li>
+  </ul>
+  <p>Before a report leaves your PC, the game removes your user name, your PC's name, folder paths that contain your name, and IP addresses. Our crash-report service is set not to store your IP address either.</p>
+
+  <h2>Bug reports</h2>
+  <p>Report a bug, in the main menu and the pause menu, sends only when you press Send: what you wrote, the same PC details as a crash report, the log's last lines, a screenshot if that box is ticked, and your save if that box is ticked (it starts unticked). With crash reports turned off, it makes a zip file on your desktop for you to post yourself instead, and sends nothing.</p>
+
+  <h2>Where reports go</h2>
+  <p>Crash and bug reports are kept by <a href="https://sentry.io/privacy/">Sentry</a>, a crash-reporting service in the United States, and deleted automatically after 30 days. Only the studio can read them. They are used for one thing: finding and fixing problems in ENKI.</p>
+
+  <h2>Playing together</h2>
+  <p>ENKI's multiplayer connects players' PCs directly, so the host can see the IP address of each player who joins. A host can ban an address from their own world; that list stays on the host's PC. The studio never sees any of this. When hosting, the game may ask your router to open the game's port.</p>
+
+  <h2>Discord</h2>
+  <p>Our Discord server is run on Discord, under <a href="https://discord.com/privacy">Discord's own privacy policy</a>.</p>
+
+  <h2>Questions, or deleting a report</h2>
+  <p>Write to <a href="mailto:enki@mostlyairtight.com">enki@mostlyairtight.com</a>. If you want a report you sent deleted before its 30 days are up, tell us roughly when you sent it and we'll remove it.</p>
+
+  <p>If this page changes, the date at the top changes with it.</p>
+</main>
+<footer>
+  © 2026 Mostly Airtight Studio · <a href="./">Home</a>
+</footer>
+</body>
+</html>
